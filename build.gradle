@@ -4,6 +4,14 @@
     id 'com.android.library' version '7.0.2' apply false
 }
 
+allprojects{
+
+}
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+ext{
+    appCompatVerison = '1.0.0'
+    designSupportVersion = '1.0.0'
 }
